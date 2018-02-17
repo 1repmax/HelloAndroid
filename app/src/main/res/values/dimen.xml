@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="company_name_text_size">32sp</dimen>
+    <dimen name="no_width_for_weight">0dp</dimen>
+    <dimen name="icon_height">24dp</dimen>
+    <dimen name="elevation_height">8dp</dimen>
+    <dimen name="logo_height">92dp</dimen>
+    <dimen name="logo_width">92dp</dimen>
+    <dimen name="dp_16_margin">16dp</dimen>
+    <dimen name="company_name_top_padding">24dp</dimen>
+
+    <dimen name="slogan_margin_right_port">12dp</dimen>
+    <dimen name="slogan_margin_top_port">80dp</dimen>
+    <dimen name="slogan_margin_left_port">72dp</dimen>
+
+    <dimen name="slogan_margin_right_land">86dp</dimen>
+    <dimen name="slogan_margin_top_land">120dp</dimen>
+    <dimen name="slogan_margin_left_land">56dp</dimen>
+
+    <dimen name="layout_margin">12dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+</resources>

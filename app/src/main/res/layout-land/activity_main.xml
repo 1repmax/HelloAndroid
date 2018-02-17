@@ -11,41 +11,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="16dp"
-        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="@dimen/dp_16_margin"
+        android:layout_marginHorizontal="@dimen/dp_16_margin"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="24dp"
+            android:layout_width="@dimen/no_width_for_weight"
+            android:layout_height="@dimen/icon_height"
             android:layout_weight="1"
             android:clickable="true"
-            android:elevation="8dp"
+            android:elevation="@dimen/elevation_height"
             app:srcCompat="@drawable/facebook_letter_logo" />
 
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="24dp"
+            android:layout_width="@dimen/no_width_for_weight"
+            android:layout_height="@dimen/icon_height"
             android:layout_weight="1"
             android:clickable="true"
-            android:elevation="8dp"
+            android:elevation="@dimen/elevation_height"
             app:srcCompat="@drawable/twitter_black_shape" />
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="24dp"
+            android:layout_width="@dimen/no_width_for_weight"
+            android:layout_height="@dimen/icon_height"
             android:layout_weight="1"
             android:clickable="true"
-            android:elevation="8dp"
+            android:elevation="@dimen/elevation_height"
             app:srcCompat="@drawable/youtube_symbol" />
 
     </LinearLayout>
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="92dp"
-        android:layout_height="92dp"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:adjustViewBounds="true"
@@ -59,11 +59,11 @@
         android:layout_below="@+id/logo"
         android:layout_centerInParent="true"
         android:fontFamily="@font/special_elite"
-        android:paddingTop="24dp"
+        android:paddingTop="@dimen/company_name_top_padding"
         android:text="@string/Udacity"
         android:textAllCaps="true"
         android:textColor="@color/textWhiteColor"
-        android:textSize="32dp"
+        android:textSize="@dimen/company_name_text_size"
         android:textStyle="bold" />
 
 
@@ -74,8 +74,11 @@
 
         <LinearLayout
             android:id="@+id/left_linear_layout"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/no_width_for_weight"
             android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -83,9 +86,9 @@
                 style="@android:style/TextAppearance.Large"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="56dp"
-                android:layout_marginRight="86dp"
-                android:layout_marginTop="120dp"
+                android:layout_marginLeft="@dimen/slogan_margin_left_land"
+                android:layout_marginRight="@dimen/slogan_margin_right_land"
+                android:layout_marginTop="@dimen/slogan_margin_top_land"
                 android:fontFamily="@font/special_elite"
                 android:gravity="center_vertical"
                 android:lineSpacingMultiplier="1.5"
@@ -100,7 +103,7 @@
 
         <LinearLayout
             android:id="@+id/right_linear_layout"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/no_width_for_weight"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
@@ -118,7 +121,7 @@
                     android:layout_alignLeft="@+id/web_icon"
                     android:layout_alignParentTop="true"
                     android:layout_alignStart="@+id/web_icon"
-                    android:padding="8dp"
+                    android:padding="@dimen/margin_8dp"
                     app:srcCompat="@drawable/ic_phone_black_24dp" />
 
                 <TextView
@@ -141,9 +144,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/phone_icon"
-                    android:layout_marginLeft="72dp"
-                    android:layout_marginStart="72dp"
-                    android:padding="8dp"
+                    android:layout_marginLeft="@dimen/slogan_margin_left_port"
+                    android:layout_marginStart="@dimen/slogan_margin_left_port"
+                    android:padding="@dimen/margin_8dp"
                     app:srcCompat="@drawable/ic_home_black_24dp" />
 
                 <TextView
@@ -169,8 +172,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/web_icon"
-                    android:layout_marginLeft="72dp"
-                    android:padding="8dp"
+                    android:layout_marginLeft="@dimen/slogan_margin_left_port"
+                    android:padding="@dimen/margin_8dp"
                     app:srcCompat="@drawable/ic_location_on_black_24dp" />
 
                 <TextView
